@@ -1,0 +1,21 @@
+{
+  "name": "axelia-hr",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node -r esbuild-register src/index.ts",
+    "ingest": "tsx scripts/ingestKnowledge.ts"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "form-data": "^4.0.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "esbuild-register": "^3.4.1",
+    "tsx": "^4.8.0",
+    "typescript": "^5.4.0",
+    "@types/node": "^20.11.30"
+  }
+}
